@@ -96,9 +96,5 @@ const testRequest = () => {
     }).catch(()=>{
         console.log("post test failed");
     });
-
-    /*putIssue().then(value=>{
-        console.log(value)
-    })*/
 }
 testRequest();
